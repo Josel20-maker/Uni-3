@@ -1,0 +1,72 @@
+/*DOCUMENTO CSS*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section, div { box-sizing: border-box;}
+
+h3 {
+    color: rgb(255, 0, 0);
+}
+
+.contenedor {
+display: flex;
+width: 100%;
+background: purple;
+padding: 15px;
+flex-flow: column wrap;
+}
+
+.items {
+
+width: 100%;
+background: orangered;
+margin-bottom: 15px;
+
+}
+
+/*Media  Queries*/
+
+@media only screen and (min-width:580px){
+
+h3 { color: whitesmoke; 
+text-align: center;}
+
+.items { height: 100px;
+background: chartreuse;}
+
+}
+
+
+/*Pantallas mas de 780px*/
+
+@media only screen and (min-width:780px){
+
+.contenedor{
+    background: blue;
+
+    h3 {
+        color: blue;
+    }
+}
+
+}
+
+/*Pantallas mas de 1380px*/
+
+@media only screen and (min-width:1380px){
+
+.contenedor { 
+    flex-flow: row wrap;
+    width: 60%;
+    margin: auto;
+}
+
+.items {
+    width: 33.33%;
+    margin-bottom: 0px;
+}
+
+}

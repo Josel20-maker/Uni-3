@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;}
+
+header, div, nav, a {box-sizing: border-box;}
+
+/*ENCABEZADOS*/
+
+h1 { }
+
+h2 { }
+
+/*LAYOUT*/
+.cabecera {
+    width: 100%;
+    min-height: 1px;
+    background: rgb(103, 103, 171);
+}
+
+.bar {
+    width: 100%;
+    min-height: 1px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+    padding: 16px 0px;
+    color: aliceblue;
+}
+
+.menu {
+    width: 100%;
+    min-height: 1px;
+}
+
+.link {
+    width: 100%;
+    min-height: 1px;
+    background-color: whitesmoke;
+    display: flex;
+   
+}
+
+.item {
+    border: 1px solid rgb(205, 205, 205);
+    width: 25%;
+    min-height: 30px;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    font-size: 0.7em;
+}
+
+.item:active { 
+    background: gray;
+    color: whitesmoke;
+}
+
+
+@media only screen and (min-width:1024px) {
+    .link { width: 70%;
+    margin: auto;
+    }
+
+    .item:first-child {border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .item:last-child {border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .link { position: relative;
+    top: 15px;
+    }
+}

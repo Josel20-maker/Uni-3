@@ -1,0 +1,114 @@
+/* Document css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;}
+
+
+header, footer, div, main, article, nav {box-sizing: border-box;}
+
+
+.tema-uno h2 {
+    text-align: center;
+    font-size: 75px;
+    line-height: 80px;
+    color: #161625;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin: 25px;
+
+}
+
+.section {
+    text-align: center;
+    margin: 0 100px;
+    padding: 0 100px;
+}
+
+.dato-uno h3{
+    background-color: rgba(7, 9, 34, 0.779);
+    color: aliceblue;
+    padding: 0 10px;
+    margin: 0 600px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.dato-uno{
+    text-align: left;
+}
+
+.dato-uno p {
+    .lista { width: 60%;
+        min-height: 1px;
+        margin: auto;
+        padding: 15px 15px 15px 15px;
+        }
+}
+ 
+
+.dato-dos h3{
+    background-color: rgba(7, 9, 34, 0.779);
+    color: aliceblue;
+    padding: 0 10px;
+    margin: 0 600px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+.dato-dos{
+    text-align: left;
+}
+
+.dato-dos p {
+    .lista { width: 60%;
+        min-height: 1px;
+        margin: auto;
+        padding: 15px 15px 15px 15px;
+        }
+}
+
+.dato-tres h3{
+    background-color: rgba(7, 9, 34, 0.779);
+    color: aliceblue;
+    padding: 0 10px;
+    margin: 0 600px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+.dato-tres{
+    text-align: left;
+}
+
+.dato-tres p {
+    .lista { width: 60%;
+        min-height: 1px;
+        margin: auto;
+        padding: 15px 15px 15px 15px;
+        }
+}
+
+p { 
+    text-align: center justify ;
+    margin: 2px;
+}
+
+footer{ color: #fdfdfd;
+    background-color: #141414;
+
+}
+
